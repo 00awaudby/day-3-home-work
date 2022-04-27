@@ -1,0 +1,155 @@
+/*Main styling*/
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    background-color: aliceblue;
+}
+
+/*styles on the light blue container*/
+.container{
+   
+    margin-top: 15rem;
+    background-color: rgb(34, 83, 133);
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+/*Styles for the overall card and all th content inside it.*/
+.card{
+    width: 400px;
+    border: 2px solid silver;
+    border-radius: 1rem;
+}
+
+.card h2{
+    border-bottom: 2px solid silver;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(33, 33, 87);
+}
+
+.photo{
+    position: relative;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom: 2px solid silver;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+    margin-bottom: 0.2rem;
+    background-color: rgb(33, 33, 87);
+}
+
+li{
+    padding: 0;
+    margin: 0.5rem;
+    list-style: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.description{
+      padding: 0.5rem;
+      padding-top: 0;
+      background-image: url(../images/description.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      line-height: 1.5rem;
+      font-family: cursive;
+      
+      
+}
+
+.quiz{
+    float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+ 
+ .top-bold{
+     font-weight: 900;
+     font-size: 10px;
+ }
+ 
+
+footer{
+    color: black;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    background: rgba(9, 119, 245, 0.5);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+  /*hover state styles.*/
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(9, 119, 245, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+
+  li:hover{
+    cursor: pointer;
+    color: silver;
+}
+
+.social a:hover{
+    background-color: white;
+    color:  rgba(9, 119, 245, 0.5);
+}
+
+
+
