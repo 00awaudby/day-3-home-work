@@ -18,14 +18,14 @@ body{
 /*styles on the light blue container*/
 .container{
    
-    margin-top: 15rem;
+    margin-top: 10rem;
     background-color: rgb(34, 83, 133);
     padding: 1rem;
     border-radius: 1.5rem;
 }
 /*Styles for the overall card and all th content inside it.*/
 .card{
-    width: 400px;
+    width: 280px;
     border: 2px solid silver;
     border-radius: 1rem;
 }
@@ -33,7 +33,7 @@ body{
 .card h2{
     border-bottom: 2px solid silver;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.1rem;
     background-color: rgb(33, 33, 87);
 }
 
@@ -56,6 +56,8 @@ ul{
     border-bottom: 2px solid silver;
     margin-bottom: 0.2rem;
     background-color: rgb(33, 33, 87);
+    
+  
 }
 
 li{
@@ -64,7 +66,7 @@ li{
     list-style: none;
     font-weight: 900;
     text-transform: uppercase;
-    line-height: 1.2rem;
+   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
@@ -77,7 +79,7 @@ li{
       background-repeat: no-repeat;
       border-bottom-right-radius: 1rem;
       border-bottom-left-radius: 1rem;
-      line-height: 1.5rem;
+      line-height: 1.2rem;
       font-family: cursive;
       
       
